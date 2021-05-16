@@ -1,0 +1,75 @@
+/* Declaring Page Color Variables */
+
+:root {
+    --color1:#d5ecd4;
+    --color2:#c3dac3;
+    --color3:#a1b0ab;
+    --color4:#929487;
+    --color5:#6b6054;
+    font-family: monospace;
+
+}
+
+
+/* Full Body CSS */
+body{
+    margin:0px;
+    background-color:var(--color1);
+    font-size: large;
+}
+
+/* Main part CSS */
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#title{
+    font-size: 6.5vh;
+}
+
+caption#img-caption{
+    font-size: 1px;
+}
+/* Full discription div */
+section{
+    background: var(--color2);
+    height: auto;
+    align-self: center;
+    width: 700px;
+    text-align: center;
+    border: 5px groove var(--color3);
+}
+
+/* Image properties */
+#image{
+    width: auto;
+    height:80vh;
+    border: 10px solid var(--color3);
+}
+
+#tribute-info{
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+#tribute-info ul{
+    margin-top: 30px;
+    text-align: left;
+}
+ul>li{
+    margin: 10px;
+}
+
+#tribute-message{
+    font-family: serif;
+    font-style: italic;
+    width:90%;
+}
+
+#tribute-message>#by{
+    text-align: right;
+}
